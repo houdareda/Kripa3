@@ -63,6 +63,13 @@ body {
 }
 
 /* start hero */
+
+.hero >.top_sec > img {
+  width: 100%;
+}
+body > div.result > img{
+  width: 100%;
+}
 .hero ul {
   padding-top: 10px;
 }
@@ -86,7 +93,7 @@ body {
 /* start result */
 
 .result {
-  background: url(../img/bg_resul.png);
+  background: url(../img/bg_resul.webp);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -195,7 +202,7 @@ body {
 /* Doctor */
 
 .doctor {
-  background: url(../img/bg_doctor.png);
+  background: url(../img/bg_doctor.webp);
   background-size: cover;
   background-position: center;
 }
@@ -309,7 +316,7 @@ body {
 }
 .last_sec .flex_price .allprice {
   padding: 25px 15px 20px 0;
-  background: url(../img/bgprice.png);
+  background: url(../img/bgprice.webp);
   background-size: cover;
   background-position: center;
   padding-right: 15px;
@@ -374,12 +381,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-}
-
-.last_sec .div_bg {
-  background: url(../img/bg_topform.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .last_sec .delv_text {
@@ -816,70 +817,5 @@ body {
   .last_sec .div_form .flex_price .img_productt {
     width: 210px;
     margin-left: 60px;
-  }
-}
-
-/* Thanks Page */
-body.thanks_page_page {
-  background: url(../img/thanksbg.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-}
-.thanks_page {
-  text-align: center;
-
-  padding-top: 30px;
-}
-
-.thanks_page h3 {
-  font-size: 22px;
-  margin-bottom: 10px;
-  color: #fff;
-}
-.thanks_page_page .text{
-  background: rgba(196, 21, 21, 0.517);
-  padding-bottom: 1px;
-}
-.thanks_page p {
-  font-size: 14px;
-  margin-bottom: 5px;
-  margin-bottom: 10px;
-  color: #dad6d6;
-}
-.thanks_page a {
-  display: block;
-  padding: 10px 30px;
-  font-size: 20px;
-  color: #fff;
-  background: #1f2a3e;
-  width: max-content;
-  border-radius: 10px;
-  margin: 0 auto 10px;
-}
-
-.thanks_page .text img {
-  width: 70px;
-}
-@media (min-width: 1000px) {
-  .thanks_page p {
-    font-size: 18px;
-    margin-bottom: 25px;
-  }
-  .thanks_page h3 {
-    font-size: 25px;
-    margin: 00px 0 8px;
-  }
-  .thanks_page .text img {
-    width: 100px;
-  }
-}
-
-@media (min-width: 500px) {
-  body.thanks_page_page {
-    background: linear-gradient(#00000068, #00000068), url(../img/lion.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
   }
 }
