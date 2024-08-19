@@ -185,8 +185,8 @@ body > div.result > img {
   text-align: center;
 }
 .how_work .content p {
-  font-size: 3.8vw;
-  margin-bottom: 15px;
+  font-size: 3.9vw;
+  margin-bottom: 17px;
   color: #2f2d2c;
 }
 .how_work .content p:last-child {
@@ -255,7 +255,7 @@ body > div.result > img {
 .doctor ul li p {
   color: #fff;
   padding: 1px 6px;
-  font-size: 3.2vw;
+  font-size: 3.3vw;
 }
 .doctor .product_div {
   position: relative;
