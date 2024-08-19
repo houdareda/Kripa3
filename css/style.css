@@ -1,13 +1,10 @@
-@font-face {
-  font-family: "Bold";
-  src: local("Bold"), url("../font/Bold.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Bold", sans-serif;
+  font-family: "Cairo", sans-serif;
   list-style: none;
   text-decoration: none;
 }
@@ -78,8 +75,8 @@ body > div.result > img{
   background: #a11d20;
   width: max-content;
   margin: 0 auto;
-  padding: 5px;
-  font-size: 5vw;
+  padding: 0 5px;
+  font-size: 4.5vw;
 }
 .hero ul li.white {
   color: #2f2d2c;
@@ -108,7 +105,7 @@ body > div.result > img{
 }
 .result .top_sec_res h4 {
   color: #fff;
-  font-size: 7vw;
+  font-size: 6vw;
   line-height: 1.2;
   display: flex;
   gap: 3px;
@@ -169,14 +166,14 @@ body > div.result > img{
 }
 
 .how_work .top_sec_work h4 {
-  font-size: 6vw;
+  font-size: 5vw;
   color: #d22327;
   line-height: 1.4;
 }
 .how_work .top_sec_work h5 {
   color: #fff;
   background: #2f2d2c;
-  font-size: 6vw;
+  font-size: 5.5vw;
   padding: 0 5px;
   margin-top: 5px;
 }
@@ -185,9 +182,10 @@ body > div.result > img{
   text-align: center;
 }
 .how_work .content p {
-  font-size: 4.1vw;
-  margin-bottom: 15px;
+  font-size: 4vw;
+  margin-bottom: 10px;
   color: #2f2d2c;
+  font-weight: bold;
 }
 .how_work .content p:last-child {
   margin-bottom: 25px;
@@ -212,7 +210,7 @@ body > div.result > img{
 }
 .doctor .top_doctor .text {
   position: absolute;
-  top: 44%;
+  top: 32%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -224,12 +222,14 @@ body > div.result > img{
 }
 .doctor .top_doctor .text h4 {
   color: #fff;
-  font-size: 5.5vw;
+  font-size: 4.7vw;
+  line-height: 1;
   margin-top: 8px;
 }
 .doctor .top_doctor .text h4 span {
   background: #a11d20;
-  padding: 2px 4px 3px;
+  padding: 0px 4px 0px;
+  line-height: 1;
 }
 .doctor ul li {
   display: flex;
@@ -253,7 +253,7 @@ body > div.result > img{
 .doctor ul li p {
   color: #fff;
   padding: 1px 6px;
-  font-size: 3.4vw;
+  font-size: 3.2vw;
 }
 .doctor .product_div {
   position: relative;
@@ -276,7 +276,6 @@ body > div.result > img{
   margin-top: 5px;
   background: #a11d20;
   font-size: 5vw;
-  padding: 5px 0;
 }
 
 .doctor .product_div img {
@@ -336,8 +335,8 @@ body > div.result > img{
   font-size: 4.8vw;
 }
 .last_sec .flex_price .text_price h3 {
-  font-size: 29.5vw;
-  line-height: 0.8;
+  font-size: 31.5vw;
+  line-height: 0.9;
   color: #a11d20;
   font-family: sans-serif;
 }
@@ -367,6 +366,7 @@ body > div.result > img{
   align-items: center;
   color: #fff;
   padding: 15px 20px 0px 0;
+  margin-bottom: 20px;
 }
 .last_sec .flex_price .text_price .securit span {
   font-size: 3.8vw;
@@ -377,7 +377,7 @@ body > div.result > img{
 }
 
 .last_sec .div_form .flex_price .img_productt {
-  width: 34%;
+  width: 36%;
   position: absolute;
   top: 0;
   left: 0;
