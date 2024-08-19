@@ -1,10 +1,11 @@
 
 /* Thanks Page */
-
 @font-face {
-    font-family: "Bold";
-    src: local("Bold"), url("../font/Bold.ttf");
-  }
+  font-family: "Cairo";
+  src: local("Cairo"), url("../img/Cairo-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
   
   * {
     padding: 0;

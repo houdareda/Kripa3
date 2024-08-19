@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+@font-face {
+  font-family: "Cairo";
+  src: local("Cairo"), url("../img/Cairo-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   padding: 0;
