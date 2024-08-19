@@ -187,10 +187,9 @@ body > div.result > img{
   text-align: center;
 }
 .how_work .content p {
-  font-size: 4vw;
+  font-size: 3.5vw;
   margin-bottom: 10px;
   color: #2f2d2c;
-  font-weight: bold;
 }
 .how_work .content p:last-child {
   margin-bottom: 25px;
@@ -509,7 +508,7 @@ body > div.result > img{
   height: 20px;
 }
 .last_sec .footer .boxs .box p {
-  font-size: 2.2vw;
+  font-size: 2.4vw;
   line-height: 1.5;
   color: #2f2d2c;
 }
