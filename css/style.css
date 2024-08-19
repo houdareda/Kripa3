@@ -78,13 +78,13 @@ body > div.result > img {
   background: #a11d20;
   width: max-content;
   margin: 0 auto;
-  padding: 0 5px;
+  padding: 3px 5px;
   font-size: 4.6vw;
 }
 .hero ul li.white {
   color: #2f2d2c;
   background: transparent;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 .div-btn .btn_img {
   margin-top: 0px;
@@ -185,8 +185,8 @@ body > div.result > img {
   text-align: center;
 }
 .how_work .content p {
-  font-size: 3.6vw;
-  margin-bottom: 10px;
+  font-size: 3.8vw;
+  margin-bottom: 15px;
   color: #2f2d2c;
 }
 .how_work .content p:last-child {
