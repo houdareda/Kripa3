@@ -1,19 +1,15 @@
 @font-face {
-  font-family: "Cairo";
-  src: local("Cairo"), url("../img/Cairo-Bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+  font-family: "bold";
+  src: url(GE-SS-Two-Bold.woff2);
 }
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Cairo", sans-serif;
+  font-family: "bold", "Readex Pro";
   list-style: none;
   text-decoration: none;
 }
-
 img {
   width: 100%;
 }
@@ -66,14 +62,16 @@ body {
 
 /* start hero */
 
-.hero >.top_sec > img {
+.hero > .top_sec > img {
   width: 100%;
 }
-body > div.result > img{
+body > div.result > img {
   width: 100%;
 }
 .hero ul {
   padding-top: 10px;
+  width: max-content;
+  margin: 0 auto;
 }
 .hero ul li {
   color: #fff;
@@ -81,7 +79,7 @@ body > div.result > img{
   width: max-content;
   margin: 0 auto;
   padding: 0 5px;
-  font-size: 4.7vw;
+  font-size: 4.5vw;
 }
 .hero ul li.white {
   color: #2f2d2c;
@@ -110,7 +108,7 @@ body > div.result > img{
 }
 .result .top_sec_res h4 {
   color: #fff;
-  font-size: 6vw;
+  font-size: 6.2vw;
   line-height: 1.2;
   display: flex;
   gap: 3px;
@@ -226,7 +224,7 @@ body > div.result > img{
 }
 .doctor .top_doctor .text h4 {
   color: #fff;
-  font-size: 4.7vw;
+  font-size: 5vw;
   line-height: 1;
   margin-top: 8px;
 }
@@ -352,6 +350,11 @@ body > div.result > img{
   padding: 0 3px 2px 3px;
   position: relative;
   color: #040503;
+}
+.last_sec .flex_price .text_price p span {
+  font-family: sans-serif;
+  position: relative;
+  top: 2px;
 }
 
 .last_sec .flex_price .text_price p::after {
@@ -508,7 +511,7 @@ body > div.result > img{
   height: 20px;
 }
 .last_sec .footer .boxs .box p {
-  font-size: 2.4vw;
+  font-size: 2.3vw;
   line-height: 1.5;
   color: #2f2d2c;
 }
